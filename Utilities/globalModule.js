@@ -408,36 +408,6 @@ exports.sendWSMS = (to, template_name, PARAMETERS, callback) => {
     });
 }
 
-exports.sendWMediaSMS = (to, template_name, PARAMETERS, HPARAMETERS, encoding, callback) => {
-    const request = require('request');
-    var options = {
-        url: process.env.GM_API + 'sendWMediaSms',
-        headers: {
-            "apikey": process.env.GM_API_KEY,
-            "supportkey": process.env.SUPPORT_KEY,
-            "applicationkey": process.env.APPLICATION_KEY
-        },
-        body: {
-            W_SMS_KEY: process.env.W_SMS_KEY,
-            SEND_TO: to,
-            template_name: template_name,
-            PARAMETERS: PARAMETERS,
-            HPARAMETERS: HPARAMETERS,
-            ENCODING: encoding
-        },
-        json: true
-    };
-
-    request.post(options, (error, response, body) => {
-        if (error) {
-            callback(error);
-        } else {
-            console.log("wsms body: ", body);
-            callback(null, body)
-        }
-    });
-}
-
 exports.sendNotificationToId = (ID, TITLE, DESCRIPTION, REMIND_TYPE, element, supportKey, callback) => {
     try {
         this.executeQueryData("SELECT CLOUD_ID FROM app_user_master WHERE ID=?", [ID], supportKey, (error, result) => {
@@ -492,9 +462,9 @@ exports.sendWAToolSMS = (MOBILE_NO, TEMPLATE_NAME, wparams, TEMP_LANG, callback)
         }
         else {
             console.log("bdoy: ", response.body);
+            console.log(error);
 
             if (response.body.code == 200) {
-                console.log(error);
                 this.executeQueryData(`INSERT INTO whatsapp_messages_history (SENT_TO,PARAMS,TEMPLATE_NAME,MEDIA_LINK,STATUS,RESPONSE_DATA,CLIENT_ID) VALUE (?,?,?,?,?,"?",1)`, [SEND_TO, PARAMS, TEMPLATE_NAME, '', 'S', body], supportKey, (error, result) => {
                     if (error) {
                         callback(error);
@@ -504,7 +474,6 @@ exports.sendWAToolSMS = (MOBILE_NO, TEMPLATE_NAME, wparams, TEMP_LANG, callback)
                     }
                 })
             } else {
-                console.log("success");
                 this.executeQueryData(`INSERT INTO whatsapp_messages_history (SENT_TO,PARAMS,TEMPLATE_NAME,MEDIA_LINK,STATUS,RESPONSE_DATA,CLIENT_ID) VALUE (?,?,?,?,?,"?",1)`, [SEND_TO, PARAMS, TEMPLATE_NAME, '', 'F', body], supportKey, (error, result) => {
                     if (error) {
                         callback(error);
@@ -545,48 +514,3 @@ exports.sendNotificationAlarm = (ID, TITLE, DESCRIPTION, REMIND_TYPE, element, s
         console.log("Exception In: " + query + " Error : ", error);
     }
 }
-
-
-// Accept: 'application/json, text/plain, */*',
-//     Content - Type: 'application/json',
-//         TIMESTAMP: '2025-07-16T12:40:30.119Z',
-//             REQUEST - ID: '0c82ff3c-215f-4bea-a4cd-89295a477002',
-//                 Authorization: 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJBbFJiNVdDbThUbTlFSl9JZk85ejA2ajlvQ3Y1MXBLS0ZrbkdiX1RCdkswIn0.eyJleHAiOjE3NTI2NzA0NDAsImlhdCI6MTc1MjY2OTI0MCwianRpIjoiZjliYmEwZDctNWIzZC00ZGU5LTg2NTItZTc3NDUyNzk4NGQ5IiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6WyJhY2NvdW50IiwiU0JYVElEXzAwNjU3NiJdLCJzdWIiOiIyMGMxZDk5ZS03ZGNiLTRjYjctYWUzMi03ZDJlZmJmYmQyMTkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJTQlhJRF8wMDg5NDciLCJzZXNzaW9uX3N0YXRlIjoiNzFhMzNlZmQtZTJmYS00YTQwLTlhNWQtZWU1ZmZhMjcxODdlIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjkwMDciXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIkhJVV9QQVlFUiIsImhpdSIsIm9mZmxpbmVfYWNjZXNzIiwiaGVhbHRoSWQiLCJwaHIiLCJPSURDIiwiaGVhbHRoX2xvY2tlciIsImhpcCIsIkhpZEFiaGFTZWFyY2giLCJISVBfUEFZRVIiXX0sInJlc291cmNlX2FjY2VzcyI6eyJTQlhJRF8wMDg5NDciOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfSwiU0JYVElEXzAwNjU3NiI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImNsaWVudElkIjoiU0JYSURfMDA4OTQ3IiwiY2xpZW50SG9zdCI6IjEwMC42NS4xNjAuMjE1IiwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXNieGlkXzAwODk0NyIsImNsaWVudEFkZHJlc3MiOiIxMDAuNjUuMTYwLjIxNSJ9.LlmRDbj3lRFsIP_oh_t_s6NmAoXH_MtJtr0vK3kv1P8UFTPs7zykhPP5og-LvbbPX6ab2mTkiupG0U2tzG9lC9JISJacRsrg1w6KCu1ZBDo6iE48cTtPXk4e59lXuFj138uzRBfmqXD3mWm9Qv618cRPguHcTTu_-CUAxOxBbFXkRdMdJhGq2wV1s23TAOvwbNEqWvfBkyLewQI2noiGf1tAgoRFmxve3tfIuBN8Zbr89ERwhXj8lO5Wx8z-jd3QkdQv4ba4ivkew9X_Rpu56x-0Cx5Dz1aIvtwAb3uRCOZWj8NRv7LTNlM7Tw_wDu_j5bSk0cr7en_U4pKYTIxSDA',
-//                     X - CM - ID: 'sbx',
-//                         X - AUTH - TOKEN: 'Bearer eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiI5MTI0NjMzMTU2ODAxM0BzYngiLCJnZW5kZXIiOiJGIiwidHlwIjoiVHJhbnNhY3Rpb24iLCJoZWFsdGhJZE51bWJlciI6IjkxLTI0NjMtMzE1Ni04MDEzIiwiYWJoYUFkZHJlc3MiOiI5MTI0NjMzMTU2ODAxM0BzYngiLCJtb250aE9mQmlydGgiOiIxMSIsInN0YXRlTmFtZSI6Ik1BSEFSQVNIVFJBIiwiZGF5T2ZCaXJ0aCI6IjIzIiwicGhyTW9iaWxlIjoiODk5OTA1MTY1MSIsImV4cCI6MTc1MjY3MTQzMCwiaWF0IjoxNzUyNjY5NjMwLCJwaHJBZGRyZXNzIjoiOTEyNDYzMzE1NjgwMTNAc2J4IiwiZW1haWwiOm51bGwsImxvZ2luU3ViamVjdCI6Ik1PQklMRV9MT0dJTiIsInllYXJPZkJpcnRoIjoiMjAwMiIsImlzS3ljVmVyaWZpZWQiOiJWRVJJRklFRCIsInBpbmNvZGUiOiI0MTYzMTAiLCJjbGllbnRJZCI6IlNCWElEXzAwODk0NyIsInJlcXVlc3RlcklkIjoiUEhSLVdFQiIsImRpc3RyaWN0TmFtZSI6IlNBTkdMSSIsIm1vYmlsZSI6Ijg5OTkwNTE2NTEiLCJmdWxsTmFtZSI6IlBhd2FyIFByYWpha3RhIEtyaXNobmFyYW8iLCJhZGRyZXNzTGluZSI6InBhbnlhY2h5YSB0YWtpIGphdmFsLCB0YWx1a2EgcGFsdXMsIEJhbWJhdmFkZSwgU2FuZ2xpLCBNYWhhcmFzaHRyYSIsInN5c3RlbSI6IkFCSEEtQSIsInR4bklkIjpudWxsfQ.ayaeZ0BbfufuDdok2UPWWy0yvTh5Ga-LTE1TxH5m_btqjcV1RPglE1PJ7ynE3vkAZU_6gsFMQF3UbJ_BY8vNdpf8UsoTA3sYJpNu16xBc28D8PJuFw27PQqkfOdtcimfwesSyhZKhAETa6-GHBib1wT99c4wA1Cu8YF83PU7HT-DbzNTbG7ed6uhxDNKE6LRC2j3w48Yb9iC6IPsbBEvCBs6iTJbVHwPEZp7eijg9NFD27KIhDkHBATDehn7wuMmXzv72xiGBcySaPZmRPioRXbXsm-pimumV9cRImLc1Ny80ZbiGKqOnctAHRlZA1hsoqRoKDPJsw9rIyjkD_BFzA'
-
-// { "consents": [{ "hiTypes": ["Prescription", "DiagnosticReport"], "hip": null, "careContexts": null, "permission": { "dateRange": { "from": "2023-01-01T08:00:00.000Z", "to": "2025-06-30T05:00:00.000Z" }, "frequency": { "unit": "DAY", "value": 2, "repeats": 8 }, "accessMode": "VIEW", "dataEraseAt": "2026-10-30T07:00:00.000Z" } }] }
-
-// {
-//   "consents": [
-//     {
-//       "hiTypes": [
-//         "Prescription"
-//       ],
-//       "hip": {
-//         "id": "ABCD_12345",
-//         "name": "ABCD Hospital",
-//         "type": "HIP"
-//       },
-//       "careContexts": [
-//         {
-//           "patientReference": "batman@tmh",
-//           "careContextReference": "Episode1"
-//         }
-//       ],
-//       "permission": {
-//         "dateRange": {
-//           "from": "2021-09-28T12:30:08.573Z",
-//           "to": "2021-09-28T12:30:08.573Z"
-//         },
-//         "frequency": {
-//           "unit": "HOUR",
-//           "value": 1,
-//           "repeats": 0
-//         },
-//         "accessMode": "VIEW",
-//         "dataEraseAt": "2021-09-28T12:30:08.573Z"
-//       }
-//     }
-//   ]
-// }
