@@ -5,8 +5,8 @@ var globalService = require('../Services/global');
 
 router
 
-    // .use('*', globalService.checkAuth)
-    // .use('/api', globalService.checkToken)
+    .use('*', globalService.checkAuth)
+    .use('/api', globalService.checkToken)
 
     // User Access
     // .post('/appUser/sendRegistrationOTP', require('../Services/Masters/appUser').sendRegistrationOTP)
