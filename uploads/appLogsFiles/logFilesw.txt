@@ -1,0 +1,547 @@
+java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@e71b72e with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@6ba25a9 -- permission denied for window type 2038
+android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+android.app.ActivityThread.access$2100(ActivityThread.java:253)
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+android.os.Handler.dispatchMessage(Handler.java:106)
+android.os.Looper.loopOnce(Looper.java:201)
+android.os.Looper.loop(Looper.java:288)
+android.app.ActivityThread.main(ActivityThread.java:7886)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+--------- beginning of system
+07-01 11:50:41.023  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566723, downTime=7566722, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.024  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566723, downTime=7566722, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.024  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566723, downTime=7566722, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.027  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566723, downTime=7566722, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.030  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566723, downTime=7566722, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.034  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566723, downTime=7566722, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.093  7463  7463 W ViewRootImpl[MainActivity]: Dropping event (no window focus):KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x6, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.115  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.116  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.127  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.129  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.130  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.131  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.267  7463  7463 W ViewRootImpl[MainActivity]: Dropping event (no window focus):KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x6, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.348  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.349  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.351  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.354  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.354  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.355  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.536  7463  7463 W ViewRootImpl[MainActivity]: Dropping event (no window focus):KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x6, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.574  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.574  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.575  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.585  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.585  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.586  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.620  7463  7463 W ViewRootImpl[MainActivity]: Dropping event (no window focus):KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x6, repeatCount=0, eventTime=7567358, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.635  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567359, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.636  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567359, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.636  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567359, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.638  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567359, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.640  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567359, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.642  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567359, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.739  7463  7463 W ViewRootImpl[MainActivity]: Dropping event (no window focus):KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x6, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.749  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.754  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.758  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.759  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.759  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.760  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+--------- beginning of crash
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: FATAL EXCEPTION: main
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: Process: com.trackk, PID: 7463
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@e71b72e with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@6ba25a9 -- permission denied for window type 2038
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.access$2100(ActivityThread.java:253)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7886)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: Caused by: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@6ba25a9 -- permission denied for window type 2038
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:1247)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:399)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:133)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.showOverlayWindow(BackgroundService.kt:503)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.getAppUsageDuration(BackgroundService.kt:293)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.requestUsageStatsPermission(BackgroundService.kt:140)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.onStartCommand(BackgroundService.kt:93)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4679)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	... 9 more
+java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@dff0ea6 with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@e80d001 -- permission denied for window type 2038
+android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+android.app.ActivityThread.access$2100(ActivityThread.java:253)
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+android.os.Handler.dispatchMessage(Handler.java:106)
+android.os.Looper.loopOnce(Looper.java:201)
+android.os.Looper.loop(Looper.java:288)
+android.app.ActivityThread.main(ActivityThread.java:7886)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+--------- beginning of crash
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: FATAL EXCEPTION: main
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: Process: com.trackk, PID: 7463
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@e71b72e with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@6ba25a9 -- permission denied for window type 2038
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.access$2100(ActivityThread.java:253)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7886)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: Caused by: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@6ba25a9 -- permission denied for window type 2038
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:1247)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:399)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:133)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.showOverlayWindow(BackgroundService.kt:503)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.getAppUsageDuration(BackgroundService.kt:293)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.requestUsageStatsPermission(BackgroundService.kt:140)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.onStartCommand(BackgroundService.kt:93)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4679)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	... 9 more
+--------- beginning of main
+07-01 13:01:56.396 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:01:58.420 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:00.435 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:02.453 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:04.467 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:06.479 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:07.476 18104  4864 I ReactNativeJNI: Memory warning (pressure level: TRIM_MEMORY_RUNNING_CRITICAL) received by JS VM, running a GC
+07-01 13:02:08.491 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:10.508 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:12.521 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:14.532 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:16.595 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:18.608 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:20.626 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:22.640 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:22.705 18104  4864 I ReactNativeJNI: Memory warning (pressure level: TRIM_MEMORY_RUNNING_CRITICAL) received by JS VM, running a GC
+07-01 13:02:24.545 18104  4864 I ReactNativeJNI: Memory warning (pressure level: TRIM_MEMORY_RUNNING_CRITICAL) received by JS VM, running a GC
+07-01 13:02:24.691 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:27.372 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:29.391 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:30.084 18104 25203 I com.trackk: Background young concurrent copying GC freed 511216(18MB) AllocSpace objects, 221(6188KB) LOS objects, 25% free, 68MB/92MB, paused 386us,489us total 473.826ms
+07-01 13:02:31.410 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:35.111 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:37.127 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:39.144 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:41.359 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:43.431 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:45.441 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:47.464 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:49.477 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:51.677 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:53.720 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:55.736 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:57.792 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: FATAL EXCEPTION: main
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: Process: com.trackk, PID: 18104
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@dff0ea6 with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@e80d001 -- permission denied for window type 2038
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread.access$2100(ActivityThread.java:253)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7886)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: Caused by: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@e80d001 -- permission denied for window type 2038
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:1247)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:399)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:133)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.trackk.BackgroundService.showOverlayWindow(BackgroundService.kt:503)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.trackk.BackgroundService.getAppUsageDuration(BackgroundService.kt:293)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.trackk.BackgroundService.requestUsageStatsPermission(BackgroundService.kt:140)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.trackk.BackgroundService.onStartCommand(BackgroundService.kt:93)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4679)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	... 9 more
+java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@90d5193 with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@5d5c682 -- permission denied for window type 2038
+android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+android.app.ActivityThread.access$2100(ActivityThread.java:253)
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+android.os.Handler.dispatchMessage(Handler.java:106)
+android.os.Looper.loopOnce(Looper.java:201)
+android.os.Looper.loop(Looper.java:288)
+android.app.ActivityThread.main(ActivityThread.java:7886)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+--------- beginning of crash
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: FATAL EXCEPTION: main
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: Process: com.trackk, PID: 7463
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@e71b72e with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@6ba25a9 -- permission denied for window type 2038
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.access$2100(ActivityThread.java:253)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7886)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: Caused by: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@6ba25a9 -- permission denied for window type 2038
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:1247)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:399)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:133)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.showOverlayWindow(BackgroundService.kt:503)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.getAppUsageDuration(BackgroundService.kt:293)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.requestUsageStatsPermission(BackgroundService.kt:140)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.onStartCommand(BackgroundService.kt:93)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4679)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	... 9 more
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: FATAL EXCEPTION: main
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: Process: com.trackk, PID: 18104
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@dff0ea6 with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@e80d001 -- permission denied for window type 2038
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread.access$2100(ActivityThread.java:253)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7886)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: Caused by: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@e80d001 -- permission denied for window type 2038
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:1247)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:399)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:133)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.trackk.BackgroundService.showOverlayWindow(BackgroundService.kt:503)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.trackk.BackgroundService.getAppUsageDuration(BackgroundService.kt:293)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.trackk.BackgroundService.requestUsageStatsPermission(BackgroundService.kt:140)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.trackk.BackgroundService.onStartCommand(BackgroundService.kt:93)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4679)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	... 9 more
+--------- beginning of main
+07-01 14:20:51.709 32643 11661 I com.trackk: Background concurrent copying GC freed 485935(21MB) AllocSpace objects, 14(560KB) LOS objects, 32% free, 49MB/73MB, paused 343us,328us total 472.668ms
+07-01 14:20:52.354 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:20:54.396 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:20:56.443 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:20:58.583 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:00.627 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:00.930 32643 11661 I com.trackk: Background young concurrent copying GC freed 492875(22MB) AllocSpace objects, 14(560KB) LOS objects, 31% free, 50MB/73MB, paused 259us,120us total 147.398ms
+07-01 14:21:02.746 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:04.806 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:06.862 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:08.896 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:09.798 32643 11661 I com.trackk: Background young concurrent copying GC freed 476015(21MB) AllocSpace objects, 13(520KB) LOS objects, 29% free, 51MB/73MB, paused 186us,109us total 147.140ms
+07-01 14:21:10.944 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:10.992 32643 11761 I BufferQueueProducer: [ViewRootImpl[PopupWindow:be94af1]#38(BLAST Consumer)38](id:7f8300000026,api:1,p:32643,c:32643) disconnect: api 1
+07-01 14:21:10.994 32643 32643 I BLASTBufferQueue: [ViewRootImpl[PopupWindow:be94af1]#38] destructor()
+07-01 14:21:10.995 32643 32643 I BufferQueueConsumer: [ViewRootImpl[PopupWindow:be94af1]#38(BLAST Consumer)38](id:7f8300000026,api:0,p:-1,c:32643) disconnect
+07-01 14:21:11.008 32643 11668 I BLASTBufferQueue: releaseBufferCallbackThunk bufferId:140200617443635 framenumber:2 blastBufferQueue is dead
+07-01 14:21:11.123 32643 32643 I BufferQueueConsumer: [](id:7f8300000027,api:0,p:-1,c:32643) connect: controlledByApp=false
+07-01 14:21:11.124 32643 32643 I BLASTBufferQueue: [ViewRootImpl[PopupWindow:411de29]#39] constructor()
+07-01 14:21:11.128 32643 11761 I BufferQueueProducer: [ViewRootImpl[PopupWindow:411de29]#39(BLAST Consumer)39](id:7f8300000027,api:1,p:32643,c:32643) connect: api=1 producerControlledByApp=true
+07-01 14:21:11.338 32643 11761 I BufferQueueProducer: [ViewRootImpl[PopupWindow:411de29]#39(BLAST Consumer)39](id:7f8300000027,api:1,p:32643,c:32643) disconnect: api 1
+07-01 14:21:11.340 32643 32643 I BLASTBufferQueue: [ViewRootImpl[PopupWindow:411de29]#39] destructor()
+07-01 14:21:11.340 32643 32643 I BufferQueueConsumer: [ViewRootImpl[PopupWindow:411de29]#39(BLAST Consumer)39](id:7f8300000027,api:0,p:-1,c:32643) disconnect
+07-01 14:21:11.356 32643 19263 I BLASTBufferQueue: releaseBufferCallbackThunk bufferId:140200617443642 framenumber:2 blastBufferQueue is dead
+07-01 14:21:11.470 32643 19322 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{33b380d V.E...... ......ID 0,0-720,1454}
+07-01 14:21:11.470 32643 32643 W unknown:ReactNative: Packager connection already open, nooping.
+07-01 14:21:11.541 32643 32643 W unknown:ReactNative: Packager connection already open, nooping.
+07-01 14:21:11.547 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.traceupdateoverlay.TraceUpdateOverlayManager
+07-01 14:21:11.559 32643 19322 W unknown:ReactNative: Catalyst Instance has already disappeared: requested by Timing
+07-01 14:21:11.566 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+07-01 14:21:11.576 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+07-01 14:21:11.581 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+07-01 14:21:11.590 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+07-01 14:21:11.592 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+07-01 14:21:11.599 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+07-01 14:21:11.601 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+07-01 14:21:11.625 32643 32643 W unknown:ReactNative: Invoking JS callback after bridge has been destroyed.
+07-01 14:21:11.625 32643 32643 W unknown:ReactNative: Invoking JS callback after bridge has been destroyed.
+07-01 14:21:11.626 32643 32643 W unknown:ReactNative: Invoking JS callback after bridge has been destroyed.
+07-01 14:21:11.626 32643 32643 W unknown:ReactNative: Invoking JS callback after bridge has been destroyed.
+07-01 14:21:11.627 32643 32643 W unknown:ReactNative: Invoking JS callback after bridge has been destroyed.
+07-01 14:21:11.627 32643 32643 W unknown:ReactNative: Invoking JS callback after bridge has been destroyed.
+07-01 14:21:11.629 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+07-01 14:21:11.646 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+07-01 14:21:11.648 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+07-01 14:21:11.654 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+07-01 14:21:11.656 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+07-01 14:21:11.661 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+07-01 14:21:11.667 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+07-01 14:21:11.675 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+07-01 14:21:11.677 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+07-01 14:21:11.678 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+07-01 14:21:11.680 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+07-01 14:21:11.692 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+07-01 14:21:11.700 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+07-01 14:21:11.709 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+07-01 14:21:11.712 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+07-01 14:21:11.720 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+07-01 14:21:11.722 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+07-01 14:21:11.724 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+07-01 14:21:11.726 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.slider.ReactSliderManager
+07-01 14:21:11.730 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.slider.ReactSliderManager$ReactSliderShadowNode
+07-01 14:21:11.732 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.shopify.reactnative.skia.SkiaPictureViewManager
+07-01 14:21:11.739 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.shopify.reactnative.skia.SkiaDomViewManager
+07-01 14:21:11.741 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.lottie.LottieAnimationViewManager
+07-01 14:21:11.746 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.henninghall.date_picker.DatePickerManager
+07-01 14:21:11.750 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+07-01 14:21:11.752 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+07-01 14:21:11.757 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.BV.LinearGradient.LinearGradientManager
+07-01 14:21:11.761 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.wonday.pdf.PdfManager
+07-01 14:21:11.775 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+07-01 14:21:11.777 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+07-01 14:21:11.779 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+07-01 14:21:11.783 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+07-01 14:21:11.788 32643 19753 E unknown:UIManagerModuleConstantsHelper: Direct event name for 'RNSScreen' doesn't correspond to the naming convention, expected 'topEventName'->'onEventName', got 'topHeaderBackButtonClickedEvent'->'onHeaderBackButtonClicked'
+07-01 14:21:11.789 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+07-01 14:21:11.795 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+07-01 14:21:11.798 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+07-01 14:21:11.803 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+07-01 14:21:11.806 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+07-01 14:21:11.810 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.ijzerenhein.sharedelement.RNSharedElementTransitionManager
+07-01 14:21:11.814 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.oblador.shimmer.RNShimmerManager
+07-01 14:21:11.820 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$DefsViewManager
+07-01 14:21:11.827 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.VirtualViewManager$RenderableShadowNode
+07-01 14:21:11.835 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MarkerManager
+07-01 14:21:11.850 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ForeignObjectManager
+07-01 14:21:11.857 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$EllipseViewManager
+07-01 14:21:11.865 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LineViewManager
+07-01 14:21:11.872 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LinearGradientManager
+07-01 14:21:11.878 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$GroupViewManager
+07-01 14:21:11.884 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextViewManager
+07-01 14:21:11.895 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ImageViewManager
+07-01 14:21:11.902 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ClipPathViewManager
+07-01 14:21:11.907 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RadialGradientManager
+07-01 14:21:11.913 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MaskManager
+07-01 14:21:11.922 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$SymbolManager
+07-01 14:21:11.931 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PatternManager
+07-01 14:21:11.941 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RectViewManager
+07-01 14:21:11.947 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextPathViewManager
+07-01 14:21:11.955 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.SvgViewManager
+07-01 14:21:11.962 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PathViewManager
+07-01 14:21:11.968 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$UseViewManager
+07-01 14:21:11.974 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$CircleViewManager
+07-01 14:21:11.980 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TSpanViewManager
+07-01 14:21:11.987 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.brentvatne.react.ReactVideoViewManager
+07-01 14:21:11.993 32643 19753 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCWebViewManager
+07-01 14:21:12.953 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:14.096 32643 19755 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:14.962 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:16.971 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:17.115 32643 19752 I TIME4A  : Starting Time4A (v4.8-2021a published on 2021-03-27)
+07-01 14:21:17.116 32643 19752 I TIME4A  : Main-Thread consumed in ms: 0
+07-01 14:21:17.563 32643 19752 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+07-01 14:21:17.572 32643 19752 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+07-01 14:21:18.229 32643 19752 W Reanimated: [Reanimated] More than one instance of reanimated::NativeReanimatedModule present. This may indicate a memory leak due to a retain cycle.
+07-01 14:21:18.538 32643 19752 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+07-01 14:21:18.538 32643 19752 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+07-01 14:21:18.603 32643 19752 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+07-01 14:21:18.627 32643 19752 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+07-01 14:21:18.632 32643 19752 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+07-01 14:21:18.957 32643 19752 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+07-01 14:21:18.962 32643 19752 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+07-01 14:21:18.968 32643 19752 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+07-01 14:21:18.973 32643 19752 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+07-01 14:21:18.978 32643 19752 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+07-01 14:21:18.979 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:19.296 32643 19759 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:19.300 32643 19752 I ReactNativeJS: Running "Trackk" with {"rootTag":241}
+07-01 14:21:20.987 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:21.539 32643 19752 E ReactNativeJS: i18next::pluralResolver: Your environment seems not to be Intl API compatible, use an Intl.PluralRules polyfill. Will fallback to the compatibilityJSON v3 format handling.
+07-01 14:21:21.601 32643 19752 I ReactNativeJS: 'i18next: languageChanged', 'en'
+07-01 14:21:21.700 32643 19752 I ReactNativeJS: 'i18next: initialized', { debug: true,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   initImmediate: true,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   ns: [ 'translation' ],
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   defaultNS: [ 'translation' ],
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   fallbackLng: [ 'en' ],
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   fallbackNS: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   supportedLngs: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   nonExplicitSupportedLngs: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   load: 'all',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   preload: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   simplifyPluralSuffix: true,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   keySeparator: '.',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   nsSeparator: ':',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   pluralSeparator: '_',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   contextSeparator: '_',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   partialBundledLanguages: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   saveMissing: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   updateMissing: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   saveMissingTo: 'fallback',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   saveMissingPlurals: true,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   missingKeyHandler: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   missingInterpolationHandler: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   postProcess: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   postProcessPassResolved: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   returnNull: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   returnEmptyString: true,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   returnObjects: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   joinArrays: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   returnedObjectHandler: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   parseMissingKeyHandler: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   appendNamespaceToMissingKey: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   appendNamespaceToCIMode: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   overloadTranslationOptionHandler: [Function: handle],
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   interpolation: 
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:    { escapeValue: false,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:      format: [Function: bound format],
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:      prefix: '{{',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:      suffix: '}}',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:      formatSeparator: ',',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:      unescapePrefix: '-',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:      nestingPrefix: '$t(',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:      nestingSuffix: ')',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:      nestingOptionsSeparator: ',',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:      maxReplaces: 1000,
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:      skipOnVariables: true },
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   lng: 'en',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:   resources: 
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:    { en: 
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:       { translation: 
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:          { login: 
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:             { Welcome: 'Welcome to 12 Dimension',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               number: 'WhatsApp number',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               getOtp: ' Get OTP',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               signIn: 'Sign in to continue',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               description: 'OTP will be sent to above mentioned whatsapp number',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               username: 'User Name',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               password: 'Password',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               LoginError: 'Something wrong, please try again',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               PleaseEnterOtp: 'Please enter OTP',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               PleaseEnter6DigitOtp: 'OTP must be 6 digit',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               RecheckYourCredentials: 'Please check your information ',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               Start: 'Start',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               numberToast1: 'Please Enter WhatsApp Number',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               numberToast2: 'Mobile number must be 10 digits' },
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:            otpScreen: 
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:             { title: 'OTP Verification',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               Verify: ' Verify',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               changeNumber: 'Change Mobile Number',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               ResendOTP: 'Resend OTP',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               LoginError: 'Something wrong, please try again',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               PleaseEnterOtp: 'Please enter OTP',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               PleaseEnter6DigitOtp: 'OTP must be 6 digit',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               RecheckYourCredentials: 'Please check your information',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               otpToast: 'Please enter OTP' },
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:            appRegister: 
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:             { tab1: 'Profile Completion',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               tab2: 'Address Information',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               tab3: 'Accept Terms and conditions',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               name: 'Name',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               placeholderName: 'Enter Name',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               dob: 'Date of Birth',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               gender: 'Select Gender',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               male: 'Male',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               female: 'Female',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               other: 'Other',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               communication: 'Communication',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               number: 'Mobile Number',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               placeholderNumber: 'Enter Mobile Number',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               email: 'Email',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               placeholderEmail: 'Enter Email',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               address: 'Address',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               placeholderAddress: 'Enter Address',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               pinCode: 'Pin Code',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               placeholderPinCode: 'Enter Pin Code',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               state: 'Select State',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               city: 'Select City',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               condition: 'Are you agreed the condition',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               TermsConditions: 'Terms & Conditions',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               nameToast: 'Please enter Name',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               dobToast: 'Please select Date of Birth',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               genderToast: 'Please select gender',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               numberToast: 'Please enter valid mobile number',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               emailToast: 'Please enter valid email address',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               pinCodeToast: 'Please enter valid PinCode',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               stateToast: 'Please select state',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               cityToast: 'Please select city',
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:               termsConToast: 'Please agree Terms & Conditions' },
+07-01 14:21:21.700 32643 19752 I ReactNativeJS:            teacherRegistration: 
+07-01 14:21:21.701 32643 19752 I ReactNativeJS:             { header: 'Subscription for teacher',
+07-01 14:21:21.701 32643 19752 I ReactNativeJS:               school: 'Select
+07-01 14:21:21.791 32643 19762 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:21.792 32643 19763 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:21.929 32643 19765 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:22.144 32643 19766 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:22.234 32643 19767 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:22.389 32643 19768 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:22.998 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:25.008 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:27.019 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:28.078 32643 19752 I ReactNativeJS: 'success: http://192.168.29.141:2001/api/appUser/get', 5989, { filter: 'AND MOBILE_NUMBER = 5664566388 ' }
+07-01 14:21:29.028 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:30.664 32643 19752 I ReactNativeJS: 'success: http://192.168.29.141:2001/api/userSubscription/get', 2472, { filter: ' AND USER_ID = 183' }
+07-01 14:21:31.041 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:33.054 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:35.065 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:35.996 32643 32643 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{33b380d V.E...... ......ID 0,0-720,1454 #f1}
+07-01 14:21:36.010 32643 19766 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:36.131 32643 19752 I ReactNativeJS: 'success: http://192.168.29.141:2001/api/ageGroup/get', 217, { filter: 'AND FROM_AGE <= 24 AND TO_AGE >= 24 AND STATUS = 1 ' }
+07-01 14:21:37.106 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:37.527 32643 11661 I com.trackk: Background young concurrent copying GC freed 401507(16MB) AllocSpace objects, 53(2816KB) LOS objects, 26% free, 54MB/73MB, paused 237us,155us total 203.215ms
+07-01 14:21:39.152 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:41.212 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:43.275 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:44.650 32643 11661 I com.trackk: Background concurrent copying GC freed 472213(42MB) AllocSpace objects, 14(560KB) LOS objects, 43% free, 31MB/55MB, paused 160us,130us total 502.888ms
+07-01 14:21:45.299 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:47.347 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:49.378 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:51.411 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:53.088 32643 11661 I com.trackk: Background young concurrent copying GC freed 521907(23MB) AllocSpace objects, 11(440KB) LOS objects, 43% free, 31MB/55MB, paused 580us,129us total 154.341ms
+07-01 14:21:53.526 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:55.578 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:57.621 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:21:59.668 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:22:01.539 32643 11661 I com.trackk: Background young concurrent copying GC freed 515269(23MB) AllocSpace objects, 15(600KB) LOS objects, 43% free, 31MB/55MB, paused 219us,253us total 158.754ms
+07-01 14:22:01.696 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:22:03.762 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:22:05.802 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:22:07.857 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:22:08.827 32643 32643 I BufferQueueConsumer: [](id:7f8300000028,api:0,p:-1,c:32643) connect: controlledByApp=false
+07-01 14:22:08.828 32643 32643 I BLASTBufferQueue: [ViewRootImpl[PopupWindow:cfc0bb9]#40] constructor()
+07-01 14:22:08.832 32643 11761 I BufferQueueProducer: [ViewRootImpl[PopupWindow:cfc0bb9]#40(BLAST Consumer)40](id:7f8300000028,api:1,p:32643,c:32643) connect: api=1 producerControlledByApp=true
+07-01 14:22:09.889 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:22:10.052 32643 11661 I com.trackk: Background young concurrent copying GC freed 516290(23MB) AllocSpace objects, 15(600KB) LOS objects, 43% free, 31MB/55MB, paused 280us,133us total 143.234ms
+07-01 14:22:10.634 32643 19406 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:22:10.893 32643 11761 I BufferQueueProducer: [ViewRootImpl[PopupWindow:cfc0bb9]#40(BLAST Consumer)40](id:7f8300000028,api:1,p:32643,c:32643) disconnect: api 1
+07-01 14:22:10.895 32643 32643 I BLASTBufferQueue: [ViewRootImpl[PopupWindow:cfc0bb9]#40] destructor()
+07-01 14:22:10.895 32643 32643 I BufferQueueConsumer: [ViewRootImpl[PopupWindow:cfc0bb9]#40(BLAST Consumer)40](id:7f8300000028,api:0,p:-1,c:32643) disconnect
+07-01 14:22:10.917 32643 13204 I BLASTBufferQueue: releaseBufferCallbackThunk bufferId:140200617443649 framenumber:2 blastBufferQueue is dead
+07-01 14:22:11.921 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:22:13.957 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:22:15.996 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:22:18.207 32643 11764 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 14:22:18.739 32643 11661 W com.trackk: Suspending all threads took: 24.367ms
+07-01 14:22:19.100 32643 11661 I com.trackk: Background young concurrent copying GC freed 474962(21MB) AllocSpace objects, 13(536KB) LOS objects, 38% free, 34MB/55MB, paused 8.909ms,24.948ms total 886.626ms
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: FATAL EXCEPTION: main
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: Process: com.trackk, PID: 32643
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@90d5193 with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@5d5c682 -- permission denied for window type 2038
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at android.app.ActivityThread.access$2100(ActivityThread.java:253)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7886)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: Caused by: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@5d5c682 -- permission denied for window type 2038
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:1247)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:399)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:133)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at com.trackk.BackgroundService.showOverlayWindow(BackgroundService.kt:503)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at com.trackk.BackgroundService.getAppUsageDuration(BackgroundService.kt:293)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at com.trackk.BackgroundService.requestUsageStatsPermission(BackgroundService.kt:140)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at com.trackk.BackgroundService.onStartCommand(BackgroundService.kt:93)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4679)
+07-01 14:22:19.239 32643 32643 E AndroidRuntime: 	... 9 more

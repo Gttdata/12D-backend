@@ -1,0 +1,170 @@
+java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@e71b72e with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@6ba25a9 -- permission denied for window type 2038
+android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+android.app.ActivityThread.access$2100(ActivityThread.java:253)
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+android.os.Handler.dispatchMessage(Handler.java:106)
+android.os.Looper.loopOnce(Looper.java:201)
+android.os.Looper.loop(Looper.java:288)
+android.app.ActivityThread.main(ActivityThread.java:7886)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+--------- beginning of system
+07-01 11:50:41.023  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566723, downTime=7566722, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.024  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566723, downTime=7566722, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.024  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566723, downTime=7566722, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.027  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566723, downTime=7566722, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.030  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566723, downTime=7566722, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.034  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566723, downTime=7566722, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.093  7463  7463 W ViewRootImpl[MainActivity]: Dropping event (no window focus):KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x6, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.115  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.116  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.127  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.129  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.130  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.131  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7566880, downTime=7566880, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.267  7463  7463 W ViewRootImpl[MainActivity]: Dropping event (no window focus):KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x6, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.348  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.349  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.351  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.354  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.354  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.355  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567043, downTime=7567043, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.536  7463  7463 W ViewRootImpl[MainActivity]: Dropping event (no window focus):KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x6, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.574  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.574  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.575  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.585  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.585  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.586  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567209, downTime=7567209, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.620  7463  7463 W ViewRootImpl[MainActivity]: Dropping event (no window focus):KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x6, repeatCount=0, eventTime=7567358, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.635  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567359, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.636  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567359, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.636  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567359, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.638  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567359, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.640  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567359, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.642  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567359, downTime=7567358, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.739  7463  7463 W ViewRootImpl[MainActivity]: Dropping event (no window focus):KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x6, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.749  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.754  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.758  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.759  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.759  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+07-01 11:50:41.760  7463  7463 W ViewRootImpl[MainActivity]: Cancelling event (no window focus):KeyEvent { action=ACTION_UP, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x26, repeatCount=0, eventTime=7567524, downTime=7567524, deviceId=-1, source=0x101, displayId=-1 }
+--------- beginning of crash
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: FATAL EXCEPTION: main
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: Process: com.trackk, PID: 7463
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@e71b72e with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@6ba25a9 -- permission denied for window type 2038
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.access$2100(ActivityThread.java:253)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7886)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: Caused by: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@6ba25a9 -- permission denied for window type 2038
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:1247)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:399)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:133)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.showOverlayWindow(BackgroundService.kt:503)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.getAppUsageDuration(BackgroundService.kt:293)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.requestUsageStatsPermission(BackgroundService.kt:140)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.onStartCommand(BackgroundService.kt:93)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4679)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	... 9 more
+java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@dff0ea6 with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@e80d001 -- permission denied for window type 2038
+android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+android.app.ActivityThread.access$2100(ActivityThread.java:253)
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+android.os.Handler.dispatchMessage(Handler.java:106)
+android.os.Looper.loopOnce(Looper.java:201)
+android.os.Looper.loop(Looper.java:288)
+android.app.ActivityThread.main(ActivityThread.java:7886)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+--------- beginning of crash
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: FATAL EXCEPTION: main
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: Process: com.trackk, PID: 7463
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@e71b72e with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@6ba25a9 -- permission denied for window type 2038
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.access$2100(ActivityThread.java:253)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7886)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: Caused by: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@6ba25a9 -- permission denied for window type 2038
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:1247)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:399)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:133)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.showOverlayWindow(BackgroundService.kt:503)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.getAppUsageDuration(BackgroundService.kt:293)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.requestUsageStatsPermission(BackgroundService.kt:140)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at com.trackk.BackgroundService.onStartCommand(BackgroundService.kt:93)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4679)
+07-01 11:57:07.770  7463  7463 E AndroidRuntime: 	... 9 more
+--------- beginning of main
+07-01 13:01:56.396 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:01:58.420 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:00.435 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:02.453 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:04.467 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:06.479 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:07.476 18104  4864 I ReactNativeJNI: Memory warning (pressure level: TRIM_MEMORY_RUNNING_CRITICAL) received by JS VM, running a GC
+07-01 13:02:08.491 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:10.508 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:12.521 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:14.532 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:16.595 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:18.608 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:20.626 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:22.640 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:22.705 18104  4864 I ReactNativeJNI: Memory warning (pressure level: TRIM_MEMORY_RUNNING_CRITICAL) received by JS VM, running a GC
+07-01 13:02:24.545 18104  4864 I ReactNativeJNI: Memory warning (pressure level: TRIM_MEMORY_RUNNING_CRITICAL) received by JS VM, running a GC
+07-01 13:02:24.691 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:27.372 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:29.391 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:30.084 18104 25203 I com.trackk: Background young concurrent copying GC freed 511216(18MB) AllocSpace objects, 221(6188KB) LOS objects, 25% free, 68MB/92MB, paused 386us,489us total 473.826ms
+07-01 13:02:31.410 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:35.111 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:37.127 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:39.144 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:41.359 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:43.431 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:45.441 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:47.464 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:49.477 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:51.677 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:53.720 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:55.736 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:57.792 18104 25399 I System.out: [com.mediatek.cta.CtaAdapter]:check permission begin!
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: FATAL EXCEPTION: main
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: Process: com.trackk, PID: 18104
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: java.lang.RuntimeException: Unable to start service com.trackk.BackgroundService@dff0ea6 with Intent { cmp=com.trackk/.BackgroundService (has extras) }: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@e80d001 -- permission denied for window type 2038
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4697)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread.access$2100(ActivityThread.java:253)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2128)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:201)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:288)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7886)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: Caused by: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@e80d001 -- permission denied for window type 2038
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.view.ViewRootImpl.setView(ViewRootImpl.java:1247)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:399)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:133)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.trackk.BackgroundService.showOverlayWindow(BackgroundService.kt:503)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.trackk.BackgroundService.getAppUsageDuration(BackgroundService.kt:293)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.trackk.BackgroundService.requestUsageStatsPermission(BackgroundService.kt:140)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at com.trackk.BackgroundService.onStartCommand(BackgroundService.kt:93)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4679)
+07-01 13:02:58.369 18104 18104 E AndroidRuntime: 	... 9 more
